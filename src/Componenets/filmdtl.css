@@ -1,0 +1,67 @@
+.movie{
+    border: 2px solid rgb(161, 154, 154);
+    width: 60%;
+    margin-left: 20%;
+    background-color: rgb(175, 175, 175);
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.movie h1{
+    color: rgba(0, 0, 255, 0.486);
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.body{
+    display: flex;
+  }
+
+  .body .information{
+      display: flex;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 50px;
+  }
+  .body .information h3{
+      width: 200px;
+      color: rgb(16, 34, 87);
+      margin-top: 20px;
+  }
+  .body .information h4{
+    margin-top: 22px;
+}
+@media screen and (max-width: 1200px){
+    .body .information{
+        display: flex;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .movie{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .body{
+        display: block;
+      }
+      .body img{
+          width: 50%;
+      }
+      .body .information{
+        margin-left: 1px;
+    }
+    .movie{
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+}
+@media screen and (max-width:340px){
+    .body .information{
+        display: block;
+        margin-left: 1px;
+    }
+}

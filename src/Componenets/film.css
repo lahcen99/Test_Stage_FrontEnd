@@ -1,0 +1,47 @@
+.listFilms{
+    margin-top: 50px;
+}
+.films{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left:2.5%;
+    cursor: pointer;
+}
+.film{
+    margin-bottom: 40px;
+    margin-right: 5%;
+    width: 20%;  
+}
+.film img{
+    width: 100%;
+    height: 40vh;
+    border-radius: 10px;
+}
+.film h4{
+    color: rgba(0, 0, 255, 0.486);
+}
+.film h4:hover{
+    color: rgba(0, 0, 255, 0.555);
+}
+h2{
+    font-size: 35px;
+    color: brown;
+    background-color: rgba(222, 184, 135, 0.5);
+    height: 60px;
+    padding-top: 10px;
+    font-weight: 900;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media screen and (max-width: 600px)  {
+    
+    .film{
+        width: 200px ;  
+    }
+    
+}
